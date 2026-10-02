@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .form-box{
+            background-color: rgb(32, 105, 129);
+            padding: 10px;
+            margin: 13px;
+            border: 1px solid rgb(97, 93, 93);
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 3px 3px 5px rgb(96, 95, 95);
+            background-image: url("imag.px/hostpital.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+
+        }
+        label{
+            border:rgb(7, 8, 8);
+            border-width: 0.5px;
+            border-style: solid;
+        }
+        .table-box{
+            background-color: rgb(224, 89, 31);
+            padding: 10px;
+            margin: 13px;
+            border: 1px solid rgb(60, 30, 195);
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 3px 3px 5px rgb(59, 113, 12);
+        }
+        body{
+            background-color: rgb(203, 243, 230);
+            margin: 0px;
+            font-family:arial,sans-serif; 
+            box-shadow: 2px 2px 2px 2px rgb(20, 168, 27);
+            
+        }
+        header{
+            text-align: center;
+            background-color: rgb(66, 123, 204);
+            color: rgb(243, 245, 249);
+            padding: 20px;
+            box-shadow: 2px 2px 2px 2px rgb(21, 27, 21);
+           
+        }
+        #name{
+            text-align: center;
+            color: rgb(92, 19, 170);
+        }
+        nav{
+            text-align: center;
+            background-color: rgb(242, 238, 230);
+            color: rgb(35, 69, 194);
+            
+        }
+        table{
+            box-shadow: 1px 2px 1px 1px rgb(20, 16, 16);
+            color: rgb(10, 17, 124);
+            border: 2px solid rgb(154, 4, 4);
+            background-color: rgb(236, 217, 217);
+        }
+        th{
+            background-color: rgb(117, 183, 193);
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(47, 29, 29);
+        }
+        nav a{
+            color: rgb(4, 60, 47);
+            text-decoration: none;
+            margin: 5px;
+        }
+        section {
+            background-color: rgb(255, 255, 255);
+            color: rgb(9, 9, 10);
+            border: rgb(39, 43, 42) 1px solid;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 3px 3px 5px 3px rgb(20, 16, 16);
+            background-image: url("imag.px/logo.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: top center;
+            background-image: url("imag.px/hostpital.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+           
+        }
+        footer{
+            text-align: center;
+            background-color: rgb(22, 112, 145);
+            color: rgb(232, 234, 242);
+            padding: 10px;
+         
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital managment</title>
+</head>
+<body>
+    
+    <header>
+        <img src="imag.px/logo.png"width="190px"height="100px">
+        <h1> Dharmnandan Hospital  Managment</h1>
+        <p>24×7 Health services  in surat  </p>
+    </header>
+    
+    <p id="name"><strong>"સ્વસ્થ જીવન તરફનું પ્રથમ પગલું – ધર્મનંદન હોસ્પિટલ."</strong></p>
+    
+
+    <nav>
+        <a href="#Home"> Home     |  </a>
+        <a href="#about">about    | </a>
+        <a href="#docter">docter  | </a>
+        <a href="#patient">patient  | </a>
+        <a href="#Appointment"> Appointment  | </a>
+        <a href="#contact">contact   </a>
+    </nav>
+    <hr>
+
+    <section id="Home">
+        <h2><div><u>Home</u></div></h2>
+
+        <p>Welcome to the our <strong>"Dharmnandan hospital"</strong>  home page.</p>
+    </section>
+    <hr>
+
+    <section id="about">
+        <h2><div><u>about</u></div></h2>
+
+        <p>Thise is a about page of hospital managment.<br>
+           Dharmnandan Hospital is one of the trusted hospitals in Surat.<br>
+            We provide 24×7 emergency services, experienced doctors,
+            modern facilities, and quality patient care.</p>
+    </section>
+    <hr>
+
+    <section id="docter">
+        <h2><div><u>docters table</u></div></h2>
+        
+        <table border="2" cellpadding="10">
+
+        <tr>
+            <th> Dr name </th>
+            <th> Deparment </th>
+            <th> Experience </th>
+        </tr>
+        <tr>
+            <td> Dr. Deepkumar </td>
+            <td>   Cardiology </td>
+            <td> 5 year </td>
+        </tr>
+        <tr>
+            <td> Dr. Mansiben </td>
+            <td>   Orthopedic </td>
+            <td> 10 year </td>
+        </tr>
+        <tr>
+            <td> Dr. Juhilkumar </td>
+            <td>   Neurology </td>
+            <td> 12 year </td>
+        </tr>
+       </table> 
+    </section>
+    <hr>
+
+    <section id="patient">
+        <h2><div><u>patient registration form</u></div></h2>
+
+        <div class="form-box">
+
+
+        <form action="#" method="post">
+            <label> Name :</label>
+            <input type="text"><br><br>
+
+            <label> Age :</label>
+            <input type="number"><br><br>
+
+            <label> Gender :</label><br><br>
+            <input type="checkbox"value="male" name="Gender"male>male<br><br>
+            <input type="checkbox"value="female" name="Gender"female>female
+            <br><br>
+
+            <label> Address :</label>
+            <input type="text"><br><br>
+
+            <label> Email :</label>
+            <input type="mail"><br><br>
+
+            <label> Phone no :</label>
+            <input type="tel"><br><br>
+
+            <label> Date of birth :</label>
+            <input type="date"><br><br>
+
+            <label> blood group :</label>
+            <input type="text"><br><br>
+            
+            <label> Disease :</label>
+            <input type="text"><br><br>
+
+            <input type="submit" value="Submit">
+                              
+        </form>
+        </div>
+        </section>
+        <hr>
+
+        <section id="Appointment">
+            <h2><div><u>Appointment</u></div></h2>
+            <div id="table-box">
+
+            <table border="2" cellpadding="10">
+                <tr>
+                    <th> Tocken no </th>
+                    <th> patient name </th>
+                    <th> Docter name </th>
+                    <th> Time </th>
+                    <th> Disease </th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Deep</td>
+                    <td>Dr. Manav</td>
+                    <td>10:00 am</td>
+                    <td> eye Cataract Disease</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Mansi</td>
+                    <td>Dr. Hari</td>
+                    <td>11:00 am</td>
+                    <td> heart Disease</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Juhilbhai</td>
+                    <td>Dr. Avni</td>
+                    <td>11:30 am</td>
+                    <td> brain Disease</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Jay Mangukiya</td>
+                    <td>Dr. Shyam</td>
+                    <td>1:00 pm</td>
+                    <td> kidney Disease</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Purvisha</td>
+                    <td>Dr. Hari</td>
+                    <td>2:00 pm</td>
+                    <td> heart Disease</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>krishaben</td>
+                    <td>Dr. Mansi</td>
+                    <td>3:00 pm</td>
+                    <td> hair Disease</td>
+                </tr>
+            </table>
+            </div>
+            
+        </section>
+        <hr>
+
+        <section id="Deparments">
+            <h2><div><u>Deparments</u></div></h2>
+            <ul>
+               <li>Cardiology</li>
+               <li>Orthopedic </li>
+               <li>Neurology</li> 
+               <li>Pediatrics</li>
+               <li>Emergency</li> 
+               <li>ICU</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section id="Location">
+            <h2><div><u>Location</u></div></h2>
+           <form>
+            <label> Location :</label>
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1784266269121!5m2!1sen!2sin!6m8!1m7!1sisAIL-3iABV1efmZDO0XNA!2m2!1d21.23009328261307!2d72.9011300619646!3f188.91903915416816!4f17.702925787545908!5f0.7820865974627469" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </form>
+
+        </section>
+        <hr>
+        
+
+        <section id="contact">
+            <h2><div><u>contact</u></div></h2>
+
+            <p>Email: jivanimanav7@gmail.com<br>Phone no: 9876543210<br>Address: surat</p>
+
+        </section>
+        <hr>
+
+        <footer>
+            <p> &copy;  2026 Dharmnandan Hospital | All Rights Reserved.</p>
+        </footer>
+
+</body>
+</html>
